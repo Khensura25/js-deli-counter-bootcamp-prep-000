@@ -10,7 +10,13 @@ function nowServing(line) {
   } else {
    line.slice(1);
     return `Currently serving ${line.shift()}.`;
-   
- 
   }
+}
+
+function currentLine(line) {
+  
+  if (line.length === 0) {
+    ""
+  }
+  
 }
