@@ -11,6 +11,6 @@ function nowServing(line) {
   
   else {
     line.shift(0);
-    return `currently serving ${line[0]};`
+    return `Currently serving ${line[0]};`
   }
 }
