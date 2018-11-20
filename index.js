@@ -10,8 +10,9 @@ function nowServing(line) {
   }
   
   else {
-    line.shift();
+   line.slice(1);
     return `Currently serving ${line.shift()}.`;
+   
  
   }
 }
