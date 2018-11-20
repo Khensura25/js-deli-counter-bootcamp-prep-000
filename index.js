@@ -18,9 +18,11 @@ function currentLine(line) {
   if (line.length === 0) {
    return "The line is currently empty."
   } else {
+    let lineAsString = '';
     for (var i = 0; i < line.length; i++) {
-      
-    }`The line is cuurently: 1. ${line[0]} `
+      lineAsString += `${i}. ${line[i]},`;
+    }
+    return "The line is currently: " + lineAsString.substring(0, lineAsString.length-1)
   }
   
 }
